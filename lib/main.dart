@@ -27,7 +27,7 @@ class _HelloWorldState extends State<HelloWorld> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Hello World'),
+          title: const Text('AR App Flutter'),
         ),
         body: ArCoreView(
           onArCoreViewCreated: _onArCoreViewCreated,
